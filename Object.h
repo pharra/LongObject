@@ -7,7 +7,7 @@
 
 #define INTOBJECT_SHIFT 15
 #define N_INTOBJECT 100 // create the _IntObject[100]
-
+#define INTOBJECT_MASK (digit) (((digit) 1 << INTOBJECT_SHIFT) - 1)
 typedef unsigned short digit;
 typedef short sdigit;
 
