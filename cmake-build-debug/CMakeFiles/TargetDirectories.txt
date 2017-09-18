@@ -1,3 +1,3 @@
-C:/Users/WF/CLionProjects/factorial/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/WF/CLionProjects/factorial/cmake-build-debug/CMakeFiles/factorial.dir
-C:/Users/WF/CLionProjects/factorial/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/LongObject/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/LongObject/cmake-build-debug/CMakeFiles/factorial.dir
+D:/LongObject/cmake-build-debug/CMakeFiles/rebuild_cache.dir

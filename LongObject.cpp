@@ -12,6 +12,9 @@ IntObject * LongObject::_intobject_new(int var){
     pHead = IntBlockManager::pFree_list;
     while (var > 0){
         IntBlockManager::pFree_list = IntBlockManager::pFree_list->pNext;
+        if(IntBlockManager::pFree_list == nullptr){
+            IntBlockManager::pFree_list = IntBlockManager::_fill_free_list();
+        }
         var--;
     }
     nSize = var;
