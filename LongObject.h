@@ -13,6 +13,8 @@ private:
     long nSize;
     IntObject * _intobject_new(int var);
     int _sign;
+    char **pDecimal_str;
+    static int _long_to_decimal_string_internal(LongObject & longobject, char ** pDecimal_str);
 public:
     LongObject(int iVal);
     ~LongObject();

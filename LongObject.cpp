@@ -4,6 +4,11 @@
 
 #include "LongObject.h"
 
+static int LongObject::_long_to_decimal_string_internal(LongObject & longobject, char ** pDecimal_str)
+{
+
+}
+
 
 IntObject *LongObject::_intobject_new(int var) {
     if (IntBlockManager::pFree_list == nullptr) {
