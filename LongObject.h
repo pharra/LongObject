@@ -2,24 +2,22 @@
 // Created by WF on 2017/9/17.
 //
 
-#ifndef FACTORIAL_LongObject_H
-#define FACTORIAL_LongObject_H
-
+#pragma once
 #include "Object.h"
-#include "IntBlockManager.h"
+#include <iostream>
+using namespace std;
 class LongObject {
 private:
 
     long nSize;
-    static IntObject * _intobject_new(int var);
     int _sign;
-    char *pDecimal_str;
-    static int _long_to_decimal_string_internal(LongObject * longobject, char *pDecimal_str);
-public:
-    LongObject(int iVal);
-    ~LongObject();
     IntObject * pHead;
+    char *pDecimal_str;
+    static IntObject * _int_object_new(int var);
+    static char * _long_to_decimal_string_internal(LongObject * longobject);
+public:
+    explicit LongObject(int iVal);
+    ~LongObject();
+    friend ostream &operator << (ostream & ostream1, LongObject & a);
 };
 
-
-#endif //FACTORIAL_LongObject_H

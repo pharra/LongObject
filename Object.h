@@ -1,8 +1,7 @@
 //
 // Created by WF on 2017/9/17.
 //
-#ifndef FACTORIAL_OBJECT_H
-#define FACTORIAL_OBJECT_H
+#pragma once
 
 #define INTOBJECT_SHIFT 15
 #define N_INTOBJECT 100 // create the _IntObject[100]
@@ -27,4 +26,3 @@ struct _IntBlock {
 typedef struct _IntBlock IntBlock;
 
 
-#endif //FACTORIAL_OBJECT_H

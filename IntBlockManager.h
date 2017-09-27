@@ -3,8 +3,8 @@
 // The class which manage the memory for IntBlockManager and IntObject.
 //
 
-#ifndef FACTORIAL_IntBlockManager_H
-#define FACTORIAL_IntBlockManager_H
+#pragma once
+/*
 #include "Object.h"
 
 class IntBlockManager {
@@ -17,5 +17,5 @@ public:
     friend class LongObject;
 };
 
+*/
 
-#endif //FACTORIAL_IntBlockManager_H
